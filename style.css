@@ -125,6 +125,7 @@ body {
   position: absolute;
   top: 68%;
   transform: translateY(50%);
+  text-decoration: none;
 }
 .get-started-btn:hover {
   background-color: var(--NavyBlue);

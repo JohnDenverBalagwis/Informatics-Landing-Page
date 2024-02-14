@@ -32,7 +32,7 @@
                     <h1 class="icon">Icon</h1>
                 </div>
 
-                <a class="get-started-btn">Get Started</a>
+                <a href="candidate-pictures.php" class="get-started-btn">Get Started</a>
             </div>
         </div>
 
