@@ -10,7 +10,7 @@
 
 <body>
     <div class="container">
-        <div class="upper-logo">
+        <nav class="upper-logo">
             <figure class="logo">
                 <img src="images/info logo.png" alt="logo">
             </figure>
@@ -18,9 +18,8 @@
                 <div class="informatics">Informatics</div>
                 <div class="college">COLLEGE</div>
             </div>
-
-        </div>
-        <a class="vote-btn" href="index.php">Vote Now.</a>
+        </nav>
+        <a class="vote-btn" href="image-slider.php">Vote Now.</a>
         <div class="candidate-list">
             <div class="candidate">
                 <div class="candidate-image">
