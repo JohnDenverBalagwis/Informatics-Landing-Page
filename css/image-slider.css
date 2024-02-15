@@ -31,7 +31,6 @@ body {
 }
 .container {
   height: 100vh;
-  border: 1px solid var(--White);
 }
 
 .upper-logo {
@@ -57,16 +56,14 @@ body {
 .upper-logo img {
   width: 50px;
 }
-
-/*end of the logo*/
 .box {
   height: 100%;
-  border: 1px solid var(--White);
+  border: 2px solid var(--White);
 }
-.box h4 {
-  display: inline-block;
-  margin-top: 2rem;
-  margin-left: 2rem;
+.category-text {
+  font-size: 1rem;
   color: var(--White);
   text-align: left;
+  margin-top: 1rem;
+  margin-left: 1rem;
 }
