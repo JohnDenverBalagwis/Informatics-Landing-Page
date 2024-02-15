@@ -21,6 +21,25 @@ body {
   min-height: 100%;
   height: 100vh;
   overflow: hidden;
+  position: relative;
+  /* background-image: url("images/f3d5cdde97d5f679b17bf29c117badf4 1.png"); */
+  background-size: cover;
+  background-position: center;
+  /* background: rgb(4, 20, 74);
+  background: linear-gradient(
+    90deg,
+    rgba(4, 20, 74, 1) 32%,
+    rgba(0, 78, 146, 1) 61%,
+    rgba(0, 78, 146, 1) 83%
+  ); */
+}
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   background: rgb(4, 20, 74);
   background: linear-gradient(
     90deg,
@@ -28,15 +47,31 @@ body {
     rgba(0, 78, 146, 1) 61%,
     rgba(0, 78, 146, 1) 83%
   );
+  z-index: 1;
+}
+body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url("images/f3d5cdde97d5f679b17bf29c117badf4 1.png");
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
 }
 .container {
   height: 100vh;
+  position: relative;
 }
 
 .upper-logo {
   display: flex;
   justify-content: flex-start;
   cursor: pointer;
+  position: relative;
+  z-index: 3;
 }
 .college {
   font-size: 0.5rem;
@@ -75,6 +110,8 @@ body {
   align-items: center;
   margin-top: 50px;
   width: 600px;
+  height: auto;
+  border-radius: 50%;
 }
 .images-wrapper img {
   width: 100%;
@@ -82,7 +119,7 @@ body {
   object-fit: contain;
   position: relative;
   top: 50px;
-  z-index: 0;
+  z-index: 2;
 }
 .main-content {
   display: flex;
@@ -108,7 +145,8 @@ body {
   text-transform: capitalize;
 }
 .icon {
-  color: var(--White);
+  color: #fff4f4;
+  text-shadow: 4px 4px 2px rgba(255, 244, 244, 0.6);
   font-family: var(--Michroma-Font);
   font-size: 6rem;
   text-transform: uppercase;
@@ -126,8 +164,18 @@ body {
   top: 68%;
   transform: translateY(50%);
   text-decoration: none;
+  z-index: 4;
 }
 .get-started-btn:hover {
   background-color: var(--NavyBlue);
   color: var(--White);
 }
+/* #spotlight {
+  position: fixed;
+  opacity: 1;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+} */
