@@ -64,6 +64,9 @@ body {
   border: 1px solid var(--White);
 }
 .box h4 {
+  display: inline-block;
+  margin-top: 2rem;
+  margin-left: 2rem;
   color: var(--White);
   text-align: left;
 }
