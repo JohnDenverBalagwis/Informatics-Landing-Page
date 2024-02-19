@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap");
-:root {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+root {
   --Michroma-Font: "Michroma", sans-serif;
   --BeauRivage-Font: "Beau Rivage", cursive;
   --White: #ffffff;
@@ -28,6 +29,7 @@ body {
     rgba(0, 78, 146, 1) 61%,
     rgba(0, 78, 146, 1) 83%
   );
+  background-repeat: no-repeat;
 }
 .container {
   height: 100vh;
@@ -58,8 +60,8 @@ body {
 }
 .vote-btn {
   margin-top: 0.5rem;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
+  padding: 10px 20px;
+  border-radius: 10px;
   background-color: var(--DarkBlue);
   outline: 2px solid var(--White);
   color: var(--White);
