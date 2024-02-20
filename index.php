@@ -19,6 +19,7 @@
             <div class="name">
                 <div class="informatics">Informatics</div>
                 <div class="college">COLLEGE</div>
+                <a href="candidate-pictures.php" class="get-started-btn">Get Started</a>
             </div>
         </nav>
         <div class="hero-container">
@@ -31,8 +32,7 @@
                     <h2 class="mrandms">Mr & Ms</h2>
                     <h1 class="icon">Icon</h1>
                 </div>
-
-                <a href="candidate-pictures.php" class="get-started-btn">Get Started</a>
+                <input type="text" placeholder="Username" id="Username"><br><br>
 
             </div>
         </div>
